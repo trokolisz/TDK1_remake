@@ -5,14 +5,10 @@ namespace TDK1_remake
 {
     public class SolarPanelPlacement2
     {
-        public static void Solution()
+        public static void Solution(int N, int M, double w, double h, int P)
         {
             // Adatok inicializálása
-            int N = 5; // Sorok maximális száma
-            int M = 5; // Oszlopok maximális száma
-            double w = 1.0; // Panel szélessége
-            double h = 1.0; // Panel magassága
-            int P = 9; // Panelek maximális száma
+
 
             // Solver létrehozása
             Solver solver = Solver.CreateSolver("SCIP");

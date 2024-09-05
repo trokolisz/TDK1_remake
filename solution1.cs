@@ -5,14 +5,8 @@ namespace TDK1_remake
 {
     public class SolarPanelPlacement1
     {
-        public static void Solution()
+        public static void Solution(int N, int M, double w, double h, int P)
         {
-            // Adatok inicializálása
-            int N = 5; // Sorok maximális száma
-            int M = 10; // Oszlopok maximális száma
-            double w = 3; // Panel szélessége
-            double h = 3; // Panel magassága
-            int P = 10; // Panelek maximális száma
 
             // Solver létrehozása
             Solver solver = Solver.CreateSolver("GLOP");
